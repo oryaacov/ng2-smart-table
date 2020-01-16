@@ -9,7 +9,7 @@
 
 
 ### Features
-
+* **events:** add @Output to the title's sort event
 * **filter:** add support for custom filters ([#825](https://github.com/akveo/ng2-smart-table/issues/825)) ([b4713d9](https://github.com/akveo/ng2-smart-table/commit/b4713d9)), closes [#632](https://github.com/akveo/ng2-smart-table/issues/632) [#569](https://github.com/akveo/ng2-smart-table/issues/569) [#447](https://github.com/akveo/ng2-smart-table/issues/447)
 
 
