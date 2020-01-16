@@ -26,7 +26,7 @@ export class Ng2SmartTableComponent implements OnChanges {
   @Output() editConfirm = new EventEmitter<any>();
   @Output() createConfirm = new EventEmitter<any>();
   @Output() rowHover: EventEmitter<any> = new EventEmitter<any>();
-
+  @Output() onSort:EventEmitter<any> = new EventEmitter();
   tableClass: string;
   tableId: string;
   perPageSelect: any;
@@ -177,6 +177,7 @@ export class Ng2SmartTableComponent implements OnChanges {
 
   sort($event: any) {
     this.resetAllSelector();
+    this.onSort.emit($event)
   }
 
   filter($event: any) {
